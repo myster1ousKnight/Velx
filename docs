@@ -1,0 +1,85 @@
+< [ DOCS ] >
+
+[ v ( o ) ]
+
+: v(o) is a function that is querySelector function but shorter.
+
+[ vs ( o ) ]
+
+: vs(o) is a function that is querySelector function to select the structure of HTML but shorter.
+
+( If you want to use like to specify body, you need to do like this : vs('body') and not like this : v('body') )
+
+[ vn ( o ) ]
+
+: vn(o) is a function that is use to create new element.
+
+[ va ( s , o ) ]
+
+: va(s, o) is a function that is use to add child to the parent element but shorter.
+
+[ vst ( s , o ) ]
+
+: vst(s, o) is a function that is use to set text (innerHTML) on the element.
+
+[ vid ( s , o ) ]
+
+: vid(s, o) is a function that is use to set id of the element.
+
+[ vc ( s , o ) ]
+
+: vc(s, o) is a function that is use to set class of the element.
+
+[ vae ( s , e , f ) ]
+
+: vae(s, e, f) is a function that is addEventListener but shorter.
+
+[ vow ( d ) ]
+
+: vow(d) is a function that is use to open a file.
+
+[ vdl ( f ) ]
+
+: vdl(f) is a function that is use to download file.
+
+< [ DOCS EXAMPLES ] >
+
+[ v ( o ) ]
+
+: const myDiv = v("#myDiv")
+
+[ vs ( o ) ]
+
+: const body = vs("body")
+
+[ vn ( o ) ]
+
+: const newheading1 = vn("h1")
+
+[ va ( s , o ) ]
+
+: va(vs("body"), myDiv)
+
+[ vst ( s , o ) ]
+
+: vst(myDiv, "Hello World!")
+
+[ vid ( s , o ) ]
+
+: vid(myDiv, "myID")
+
+[ vc ( s , o ) ]
+
+: vc(myDiv, "myCLASS")
+
+[ vae ( s , e , f ) ]
+
+: vae(myDiv, "click", ()=> { myDiv.remove() })
+
+[ vow ( d ) ]
+
+: vow("my-file-to-open")
+
+[ vdl ( f ) ]
+
+: vdl("my-file-to-download")

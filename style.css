@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'sifonn';
+    src: url("SIFONN_PRO.otf");
+}
+
+body {
+    font-family: 'sifonn';
+    font-size: x-large;
+    overflow: hidden;
+    background-color: blanchedalmond;
+}
+
+h1 { text-shadow: black 1px 0 10px; }
+
+p { text-shadow: rgb(255, 192, 110) 1px 0 10px; }
+
+button { text-shadow: rgb(105, 140, 168) 1px 0 10px; cursor: pointer; }
+
+.title {
+    background-color: cadetblue;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+.p1s {
+    text-align: center;
+    font-style: italic;
+}
+
+.p2 {
+    text-align: center;
+}
+
+.download {
+    text-align: center;
+    font-family: 'sifonn';
+    width: 250px;
+    height: 50px;
+    border-radius: 50px;
+    border: 0px;
+    font-size: medium;
+    background-color: rgb(130, 198, 253);
+    transition: all 0.25s ease-in-out;
+}
+
+.docs {
+    text-align: center;
+    font-family: 'sifonn';
+    width: 250px;
+    height: 50px;
+    border-radius: 50px;
+    border: 0px;
+    font-size: medium;
+    background-color: rgb(130, 198, 253);
+    transition: all 0.25s ease-in-out;
+}
+
+.support {
+    text-align: center;
+    font-family: 'sifonn';
+    width: 250px;
+    height: 50px;
+    border-radius: 50px;
+    border: 0px;
+    font-size: medium;
+    background-color: rgb(130, 198, 253);
+    transition: all 0.25s ease-in-out;
+}
+
+.download:hover, .docs:hover, .support:hover {
+    background-color: white;
+}
